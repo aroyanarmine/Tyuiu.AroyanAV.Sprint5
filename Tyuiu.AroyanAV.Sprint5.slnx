@@ -9,4 +9,9 @@
     <Project Path="Tyuiu.AroyanAV.Sprint5.Task5.V1.Test/Tyuiu.AroyanAV.Sprint5.Task5.V1.Test.csproj" Id="a38b4854-655b-4f8b-bb30-96a84e1611cd" />
     <Project Path="Tyuiu.AroyanAV.Sprint5.Task5.V1/Tyuiu.AroyanAV.Sprint5.Task5.V1.csproj" Id="d0be24b5-a2f0-4b24-a7fc-fce9b4707c9e" />
   </Folder>
+  <Folder Name="/Task6/">
+    <Project Path="Tyuiu.AroyanAV.Sprint5.Task6.V28.Lib/Tyuiu.AroyanAV.Sprint5.Task6.V28.Lib.csproj" Id="c7bce37f-f540-4140-8f16-f9384dd3dc15" />
+    <Project Path="Tyuiu.AroyanAV.Sprint5.Task6.V28.Test/Tyuiu.AroyanAV.Sprint5.Task6.V28.Test.csproj" Id="e38cf54a-33e7-49eb-bb90-af045e7d20be" />
+    <Project Path="Tyuiu.AroyanAV.Sprint5.Task6.V28/Tyuiu.AroyanAV.Sprint5.Task6.V28.csproj" Id="05b4246f-a0d1-49fa-9d34-9f7a449af96e" />
+  </Folder>
 </Solution>
