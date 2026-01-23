@@ -1,5 +1,12 @@
 <Solution>
-  <Project Path="Tyuiu.AroyanAV.Sprint5.Task4.V4.Lib/Tyuiu.AroyanAV.Sprint5.Task4.V4.Lib.csproj" />
-  <Project Path="Tyuiu.AroyanAV.Sprint5.Task4.V4.Test/Tyuiu.AroyanAV.Sprint5.Task4.V4.Test.csproj" />
-  <Project Path="Tyuiu.AroyanAV.Sprint5.Task4.V4/Tyuiu.AroyanAV.Sprint5.Task4.V4.csproj" />
+  <Folder Name="/Task4/">
+    <Project Path="Tyuiu.AroyanAV.Sprint5.Task4.V4.Lib/Tyuiu.AroyanAV.Sprint5.Task4.V4.Lib.csproj" />
+    <Project Path="Tyuiu.AroyanAV.Sprint5.Task4.V4.Test/Tyuiu.AroyanAV.Sprint5.Task4.V4.Test.csproj" />
+    <Project Path="Tyuiu.AroyanAV.Sprint5.Task4.V4/Tyuiu.AroyanAV.Sprint5.Task4.V4.csproj" />
+  </Folder>
+  <Folder Name="/Task5/">
+    <Project Path="Tyuiu.AroyanAV.Sprint5.Task5.V1.Lib/Tyuiu.AroyanAV.Sprint5.Task5.V1.Lib.csproj" Id="ae746ec2-e614-4318-977d-99560302ed61" />
+    <Project Path="Tyuiu.AroyanAV.Sprint5.Task5.V1.Test/Tyuiu.AroyanAV.Sprint5.Task5.V1.Test.csproj" Id="2bb9bf7f-9064-470a-8f81-56520a5bfc4b" />
+    <Project Path="Tyuiu.AroyanAV.Sprint5.Task5.V1/Tyuiu.AroyanAV.Sprint5.Task5.V1.csproj" Id="508a51a7-c102-4625-ab57-2b46cbcf9657" />
+  </Folder>
 </Solution>
