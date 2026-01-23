@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 using System.IO;
 using tyuiu.cources.programming.interfaces.Sprint5;
 
@@ -9,7 +10,6 @@ namespace Tyuiu.AroyanAV.Sprint5.Task5.V1.Lib
         public double LoadFromDataFile(string path)
         {
             string content = File.ReadAllText(path);
-
             string[] parts = content.Split(new string[] { ", " }, StringSplitOptions.None);
 
             double sum = 0.0;
