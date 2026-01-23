@@ -18,7 +18,7 @@ namespace Tyuiu.AroyanAV.Sprint5.Task5.V1.Lib
             {
                 if (double.TryParse(part.Trim(), NumberStyles.Any, CultureInfo.InvariantCulture, out double number))
                 {
-                    if (Math.Abs(number % 2) < 1e-9) 
+                    if (Math.Abs(number % 2) < 1e-9)
                     {
                         sum += number;
                     }
