@@ -8,18 +8,24 @@ namespace Tyuiu.AroyanAV.Sprint5.Task5.V1.Lib
     {
         public double LoadFromDataFile(string path)
         {
+            string content = File.ReadAllText(path);
+
+            string[] parts = content.Split(new string[] { ", " }, StringSplitOptions.None);
+
+            double sum = 0.0;
+
+            foreach (string part in parts)
             {
-                string[] a = File.ReadAllText(path).Split(", ");
-                double s, d = 0;
-
-                for (int i = 0; i < a.Length; i++)
+                if (double.TryParse(part.Trim(), NumberStyles.Any, CultureInfo.InvariantCulture, out double number))
                 {
-                    s = Convert.ToDouble(a[i]);
-                    if (s % 2 == 0) d += s;
+                    if (Math.Abs(number % 2) < 1e-9) 
+                    {
+                        sum += number;
+                    }
                 }
-
-                return d;
             }
+
+            return Math.Round(sum, 3);
         }
     }
 }

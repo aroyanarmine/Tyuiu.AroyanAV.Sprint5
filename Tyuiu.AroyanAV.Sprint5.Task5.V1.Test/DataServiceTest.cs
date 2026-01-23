@@ -10,9 +10,9 @@ namespace Tyuiu.AroyanAV.Sprint5.Task5.V1.Test
         {
             string path = @"C:\DataSprint5\InPutDataFileTask5V1.txt";
             FileInfo fileInfo = new FileInfo(path);
-            bool file = fileInfo.Exists;
-            bool wait = true;
-            Assert.AreEqual(wait, file);
+            bool fileExists = fileInfo.Exists;
+            bool expected = true;
+            Assert.AreEqual(expected, fileExists);
         }
     }
 }
